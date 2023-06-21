@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload and Download Page</title>
+</head>
+<body>
+  <header>
+    <h1>File Upload and Download Page</h1>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <h2>Upload a File</h2>
+      <form id="uploadForm">
+        <input type="file" name="file" id="fileInput">
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+
+    <section class="search-section">
+      <h2>Search and Download a File</h2>
+      <input type="text" id="searchInput" placeholder="Enter file name">
+      <button id="searchButton">Search</button>
+      <div id="downloadLink"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

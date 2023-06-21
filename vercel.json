@@ -1,0 +1,12 @@
+{
+    "functions": {
+      "api/*.js": {
+        "runtime": "vercel-node@14"
+      }
+    },
+    "rewrites": [
+      { "source": "/api/(.*)", "destination": "/api.js" },
+      { "source": "/(.*)", "destination": "/index.html" }
+    ]
+  }
+  
